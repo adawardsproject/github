@@ -32,8 +32,8 @@ class App extends Component {
           </Nav>
         </Navbar>
         <div>
-          {this.setState.currentTab === "slider" ? <Slider /> : false}
-          {this.setState.currentTab === "profile" ? <Profile /> : false}
+          {this.state.currentTab === "slider" ? <Slider /> : false}
+          {this.state.currentTab === "profile" ? <Profile /> : false}
         </div>
       </div>
     );
